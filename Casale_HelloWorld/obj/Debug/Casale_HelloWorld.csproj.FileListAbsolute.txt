@@ -1,0 +1,7 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_HelloWorld\bin\Debug\Casale_HelloWorld.exe.config
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_HelloWorld\bin\Debug\Casale_HelloWorld.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_HelloWorld\bin\Debug\Casale_HelloWorld.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_HelloWorld\obj\Debug\Casale_HelloWorld.csprojAssemblyReference.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_HelloWorld\obj\Debug\Casale_HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_HelloWorld\obj\Debug\Casale_HelloWorld.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_HelloWorld\obj\Debug\Casale_HelloWorld.pdb
