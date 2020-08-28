@@ -1,0 +1,7 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE3_VariablesAndExpressions\bin\Debug\Casale_PE3_VariablesAndExpressions.exe.config
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE3_VariablesAndExpressions\bin\Debug\Casale_PE3_VariablesAndExpressions.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE3_VariablesAndExpressions\bin\Debug\Casale_PE3_VariablesAndExpressions.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE3_VariablesAndExpressions\obj\Debug\Casale_PE3_VariablesAndExpressions.csprojAssemblyReference.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE3_VariablesAndExpressions\obj\Debug\Casale_PE3_VariablesAndExpressions.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE3_VariablesAndExpressions\obj\Debug\Casale_PE3_VariablesAndExpressions.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE3_VariablesAndExpressions\obj\Debug\Casale_PE3_VariablesAndExpressions.pdb
