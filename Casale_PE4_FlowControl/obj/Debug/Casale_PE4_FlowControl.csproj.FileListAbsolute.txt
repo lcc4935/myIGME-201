@@ -1,0 +1,7 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE4_FlowControl\bin\Debug\Casale_PE4_FlowControl.exe.config
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE4_FlowControl\bin\Debug\Casale_PE4_FlowControl.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE4_FlowControl\bin\Debug\Casale_PE4_FlowControl.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE4_FlowControl\obj\Debug\Casale_PE4_FlowControl.csprojAssemblyReference.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE4_FlowControl\obj\Debug\Casale_PE4_FlowControl.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE4_FlowControl\obj\Debug\Casale_PE4_FlowControl.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE4_FlowControl\obj\Debug\Casale_PE4_FlowControl.pdb
