@@ -1,0 +1,7 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_Mandelbrot\bin\Debug\Casale_Mandelbrot.exe.config
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_Mandelbrot\bin\Debug\Casale_Mandelbrot.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_Mandelbrot\bin\Debug\Casale_Mandelbrot.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_Mandelbrot\obj\Debug\Casale_Mandelbrot.csprojAssemblyReference.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_Mandelbrot\obj\Debug\Casale_Mandelbrot.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_Mandelbrot\obj\Debug\Casale_Mandelbrot.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_Mandelbrot\obj\Debug\Casale_Mandelbrot.pdb
