@@ -1,0 +1,7 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE6_ParsingAndFormatting\bin\Debug\Casale_PE6_ParsingAndFormatting.exe.config
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE6_ParsingAndFormatting\bin\Debug\Casale_PE6_ParsingAndFormatting.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE6_ParsingAndFormatting\bin\Debug\Casale_PE6_ParsingAndFormatting.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE6_ParsingAndFormatting\obj\Debug\Casale_PE6_ParsingAndFormatting.csprojAssemblyReference.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE6_ParsingAndFormatting\obj\Debug\Casale_PE6_ParsingAndFormatting.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE6_ParsingAndFormatting\obj\Debug\Casale_PE6_ParsingAndFormatting.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE6_ParsingAndFormatting\obj\Debug\Casale_PE6_ParsingAndFormatting.pdb
