@@ -1,0 +1,6 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE7_MadLibs\bin\Debug\Casale_PE7_MadLibs.exe.config
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE7_MadLibs\bin\Debug\Casale_PE7_MadLibs.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE7_MadLibs\bin\Debug\Casale_PE7_MadLibs.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE7_MadLibs\obj\Debug\Casale_PE7_MadLibs.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE7_MadLibs\obj\Debug\Casale_PE7_MadLibs.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE7_MadLibs\obj\Debug\Casale_PE7_MadLibs.pdb
