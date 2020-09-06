@@ -1,0 +1,7 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE8_MoreAboutVariables\bin\Debug\Casale_PE8_MoreAboutVariables.exe.config
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE8_MoreAboutVariables\bin\Debug\Casale_PE8_MoreAboutVariables.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE8_MoreAboutVariables\bin\Debug\Casale_PE8_MoreAboutVariables.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE8_MoreAboutVariables\obj\Debug\Casale_PE8_MoreAboutVariables.csprojAssemblyReference.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE8_MoreAboutVariables\obj\Debug\Casale_PE8_MoreAboutVariables.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE8_MoreAboutVariables\obj\Debug\Casale_PE8_MoreAboutVariables.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE8_MoreAboutVariables\obj\Debug\Casale_PE8_MoreAboutVariables.pdb
