@@ -1,0 +1,7 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE9_Functions\obj\Debug\Casale_PE9_Functions.csprojAssemblyReference.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE9_Functions\obj\Debug\Casale_PE9_Functions.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE9_Functions\bin\Debug\Casale_PE9_Functions.exe.config
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE9_Functions\bin\Debug\Casale_PE9_Functions.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE9_Functions\bin\Debug\Casale_PE9_Functions.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE9_Functions\obj\Debug\Casale_PE9_Functions.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE9_Functions\obj\Debug\Casale_PE9_Functions.pdb
