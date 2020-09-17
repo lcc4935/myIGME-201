@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casale_UTI_BugSquash", "Casale_UTI_BugSquash.csproj", "{77E45936-3041-4952-BAB4-2B89EC58D0EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77E45936-3041-4952-BAB4-2B89EC58D0EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E45936-3041-4952-BAB4-2B89EC58D0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E45936-3041-4952-BAB4-2B89EC58D0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E45936-3041-4952-BAB4-2B89EC58D0EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B48C5834-41DF-4C0E-B6D6-EA89F4C93EAD}
+	EndGlobalSection
+EndGlobal

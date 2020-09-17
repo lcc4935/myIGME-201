@@ -1,0 +1,7 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest1_Q13\bin\Debug\Casale_UnitTest1_Q13.exe.config
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest1_Q13\bin\Debug\Casale_UnitTest1_Q13.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest1_Q13\bin\Debug\Casale_UnitTest1_Q13.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest1_Q13\obj\Debug\Casale_UnitTest1_Q13.csprojAssemblyReference.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest1_Q13\obj\Debug\Casale_UnitTest1_Q13.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest1_Q13\obj\Debug\Casale_UnitTest1_Q13.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest1_Q13\obj\Debug\Casale_UnitTest1_Q13.pdb

@@ -1,0 +1,7 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UTI_BugSquash\bin\Debug\Casale_UTI_BugSquash.exe.config
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UTI_BugSquash\bin\Debug\Casale_UTI_BugSquash.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UTI_BugSquash\bin\Debug\Casale_UTI_BugSquash.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UTI_BugSquash\obj\Debug\Casale_UTI_BugSquash.csprojAssemblyReference.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UTI_BugSquash\obj\Debug\Casale_UTI_BugSquash.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UTI_BugSquash\obj\Debug\Casale_UTI_BugSquash.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UTI_BugSquash\obj\Debug\Casale_UTI_BugSquash.pdb
