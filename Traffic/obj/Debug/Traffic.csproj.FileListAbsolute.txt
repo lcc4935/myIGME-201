@@ -1,0 +1,2 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Traffic\obj\Debug\Traffic.csprojAssemblyReference.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Traffic\obj\Debug\Traffic.csproj.CoreCompileInputs.cache
