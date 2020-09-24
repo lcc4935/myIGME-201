@@ -1,0 +1,7 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE12_DefiningClassMembers\bin\Debug\Casale_PE12_DefiningClassMembers.exe.config
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE12_DefiningClassMembers\bin\Debug\Casale_PE12_DefiningClassMembers.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE12_DefiningClassMembers\bin\Debug\Casale_PE12_DefiningClassMembers.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE12_DefiningClassMembers\obj\Debug\Casale_PE12_DefiningClassMembers.csprojAssemblyReference.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE12_DefiningClassMembers\obj\Debug\Casale_PE12_DefiningClassMembers.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE12_DefiningClassMembers\obj\Debug\Casale_PE12_DefiningClassMembers.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_PE12_DefiningClassMembers\obj\Debug\Casale_PE12_DefiningClassMembers.pdb

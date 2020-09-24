@@ -1,0 +1,6 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleLib\bin\Debug\PeopleLib.dll
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleLib\bin\Debug\PeopleLib.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleLib\obj\Debug\PeopleLib.csprojAssemblyReference.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleLib\obj\Debug\PeopleLib.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleLib\obj\Debug\PeopleLib.dll
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleLib\obj\Debug\PeopleLib.pdb

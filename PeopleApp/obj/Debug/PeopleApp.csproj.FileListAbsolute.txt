@@ -1,0 +1,12 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleApp\bin\Debug\PeopleApp.exe.config
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleApp\bin\Debug\PeopleApp.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleApp\bin\Debug\PeopleApp.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleApp\bin\Debug\CourseLib.dll
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleApp\bin\Debug\PeopleLib.dll
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleApp\bin\Debug\CourseLib.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleApp\bin\Debug\PeopleLib.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleApp\obj\Debug\PeopleApp.csprojAssemblyReference.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleApp\obj\Debug\PeopleApp.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleApp\obj\Debug\PeopleApp.csproj.CopyComplete
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleApp\obj\Debug\PeopleApp.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\PeopleApp\obj\Debug\PeopleApp.pdb
