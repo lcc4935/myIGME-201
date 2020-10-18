@@ -151,6 +151,11 @@ namespace EditPerson
             this.herRadioButton.CheckedChanged += new EventHandler(this.GenderRadioButton__CheckedChanged);
             this.themRadioButton.CheckedChanged += new EventHandler(this.GenderRadioButton__CheckedChanged);
 
+            this.freshRadioButton.CheckedChanged += new EventHandler(this.ClassRadioButton__CheckedChanged);
+            this.sophRadioButton.CheckedChanged += new EventHandler(this.ClassRadioButton__CheckedChanged);
+            this.juniorRadioButton.CheckedChanged += new EventHandler(this.ClassRadioButton__CheckedChanged);
+            this.seniorRadioButton.CheckedChanged += new EventHandler(this.ClassRadioButton__CheckedChanged);
+
             this.okButton.Click += new EventHandler(this.OkButton__Click);
             this.cancelButton.Click += new EventHandler(this.CancelButton__Click);
 
@@ -160,18 +165,64 @@ namespace EditPerson
             this.ageText.Text = person.age.ToString();
             this.licText.Text = person.LicenseId.ToString();
 
+            if (person.name == null)
+            {
+                this.themRadioButton.Checked = true;
+            }
+            else
+            {
+                switch (person.eGender)
+                {
+                    case genderPronoun.her:
+                        this.herRadioButton.Checked = true;
+                        break;
+                    case genderPronoun.him:
+                        this.himRadioButton.Checked = true;
+                        break;
+                    case genderPronoun.them:
+                        this.themRadioButton.Checked = true;
+                        break;
+                }
+            }
+
+            if (person.name == null)
+            {
+                this.seniorRadioButton.Checked = true;
+            }
+            else
+            {
+                switch (person.eCollegeYear)
+                {
+                    case collegeYear.freshman:
+                        this.freshRadioButton.Checked = true;
+                        break;
+                    case collegeYear.sophomore:
+                        this.sophRadioButton.Checked = true;
+                        break;
+                    case collegeYear.junior:
+                        this.juniorRadioButton.Checked = true;
+                        break;
+                    case collegeYear.senior:
+                        this.seniorRadioButton.Checked = true;
+                        break;
+
+                }
+            }
+
             if (person.GetType() == typeof(Student))
             {
                 // initialize the typeComboBox SelectedIndex to 0 (Student)
                 this.typeComboBox.SelectedIndex = 0;
                 Student student = (Student)person;
                 this.gpaText.Text = student.gpa.ToString();
+                
             }
             else
             {
                 this.typeComboBox.SelectedIndex = 1;
                 Teacher teacher = (Teacher)person;
                 this.specText.Text = teacher.specialty;
+                
             }
 
             this.Show();
@@ -237,6 +288,57 @@ namespace EditPerson
             }
         }
 
+
+
+        private void ClassRadioButton__CheckedChanged(object sender, EventArgs e)
+        {
+            // using line #136 declare Radio Button reference variable for object passed in
+            RadioButton rb = (RadioButton)sender;
+
+            // if the reference variable is the freshRadioButton
+            if (rb == this.freshRadioButton)
+            {
+                // if the Radio Button Checked field is true
+                if (rb.Checked)
+                {
+                    this.classOfLabel.Text = "Class of 2024";
+                }
+            }
+
+            // if the reference variable is the sophRadioButton
+            if (rb == this.sophRadioButton)
+            {
+                // if the Radio Button Checked field is true
+                if (rb.Checked)
+                {
+                    this.classOfLabel.Text = "Class of 2023";
+                }
+            }
+
+            // if the reference variable is the juniorRadioButton
+            if (rb == this.juniorRadioButton)
+            {
+                // if the Radio Button Checked field is true
+                if (rb.Checked)
+                {
+                    this.classOfLabel.Text = "Class of 2022";
+                }
+            }
+
+            // if the reference variable is the seniorRadioButton
+            if (rb == this.seniorRadioButton)
+            {
+                // if the Radio Button Checked field is true
+                if (rb.Checked)
+                {
+                    this.classOfLabel.Text = "Class of 2021";
+                }
+            }
+        }
+
+
+
+
         // the Event Handler for changing the typeComboBox value (Student or Teacher)
         // if it's set to Student, show the GPA label and field, but not the Specialty label and field
         // if it's set to Teacher, show the Specialty label and field, but not the GPA label and field
@@ -260,6 +362,8 @@ namespace EditPerson
                 this.gpaText.Visible = true;
 
                 this.gpaText.Tag = (this.gpaText.Text.Length > 0);
+
+                this.classGroupBox.Visible = true;
             }
             else
             {
@@ -276,6 +380,8 @@ namespace EditPerson
                 this.gpaText.Visible = false;
 
                 this.gpaText.Tag = true;
+
+                this.classGroupBox.Visible = false;
             }
         }
 
@@ -396,9 +502,39 @@ namespace EditPerson
             person.age = Convert.ToInt32(this.ageText.Text);
             person.LicenseId = Convert.ToInt32(this.licText.Text);
 
-            if( person.GetType() == typeof( Student))
+            if (this.herRadioButton.Checked) {
+                person.eGender = genderPronoun.her;
+            }
+            if (this.himRadioButton.Checked)
+            {
+                person.eGender = genderPronoun.him;
+            }
+            if (this.themRadioButton.Checked)
+            {
+                person.eGender = genderPronoun.then;
+            }
+
+
+            if ( person.GetType() == typeof( Student))
             {
                 student.gpa = Convert.ToDouble(this.gpaText.Text);
+
+                if (this.freshRadioButton.Checked)
+                {
+                    person.eCollegeYear = collegeYear.freshman;
+                }
+                if (this.sophRadioButton.Checked)
+                {
+                    person.eCollegeYear = collegeYear.sophmore;
+                }
+                if (this.juniorRadioButton.Checked)
+                {
+                    person.eCollegeYear = collegeYear.junior;
+                }
+                if (this.seniorRadioButton.Checked)
+                {
+                    person.eCollegeYear = collegeYear.senior;
+                }
             }
             else
             {
@@ -443,5 +579,6 @@ namespace EditPerson
             this.Close();
             this.Dispose();
         }
+
     }
 }

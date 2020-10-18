@@ -50,8 +50,15 @@
             this.themRadioButton = new System.Windows.Forms.RadioButton();
             this.herRadioButton = new System.Windows.Forms.RadioButton();
             this.genderGroupBox = new System.Windows.Forms.GroupBox();
+            this.classGroupBox = new System.Windows.Forms.GroupBox();
+            this.classOfLabel = new System.Windows.Forms.Label();
+            this.seniorRadioButton = new System.Windows.Forms.RadioButton();
+            this.juniorRadioButton = new System.Windows.Forms.RadioButton();
+            this.sophRadioButton = new System.Windows.Forms.RadioButton();
+            this.freshRadioButton = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
             this.genderGroupBox.SuspendLayout();
+            this.classGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // typeLabel
@@ -254,12 +261,92 @@
             this.genderGroupBox.Controls.Add(this.himRadioButton);
             this.genderGroupBox.Controls.Add(this.themRadioButton);
             this.genderGroupBox.Controls.Add(this.herRadioButton);
-            this.genderGroupBox.Location = new System.Drawing.Point(466, 18);
+            this.genderGroupBox.Location = new System.Drawing.Point(454, 53);
             this.genderGroupBox.Name = "genderGroupBox";
-            this.genderGroupBox.Size = new System.Drawing.Size(88, 91);
-            this.genderGroupBox.TabIndex = 12;
+            this.genderGroupBox.Size = new System.Drawing.Size(90, 90);
+            this.genderGroupBox.TabIndex = 6;
             this.genderGroupBox.TabStop = false;
             this.genderGroupBox.Text = "Gender";
+            // 
+            // classGroupBox
+            // 
+            this.classGroupBox.Controls.Add(this.classOfLabel);
+            this.classGroupBox.Controls.Add(this.seniorRadioButton);
+            this.classGroupBox.Controls.Add(this.juniorRadioButton);
+            this.classGroupBox.Controls.Add(this.sophRadioButton);
+            this.classGroupBox.Controls.Add(this.freshRadioButton);
+            this.classGroupBox.Location = new System.Drawing.Point(576, 53);
+            this.classGroupBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.classGroupBox.Name = "classGroupBox";
+            this.classGroupBox.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.classGroupBox.Size = new System.Drawing.Size(155, 136);
+            this.classGroupBox.TabIndex = 7;
+            this.classGroupBox.TabStop = false;
+            this.classGroupBox.Text = "Class";
+            this.classGroupBox.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // classOfLabel
+            // 
+            this.classOfLabel.AutoSize = true;
+            this.classOfLabel.Location = new System.Drawing.Point(26, 116);
+            this.classOfLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.classOfLabel.Name = "classOfLabel";
+            this.classOfLabel.Size = new System.Drawing.Size(79, 13);
+            this.classOfLabel.TabIndex = 4;
+            this.classOfLabel.Text = "Class of NNNN";
+            this.classOfLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // seniorRadioButton
+            // 
+            this.seniorRadioButton.AutoSize = true;
+            this.seniorRadioButton.Location = new System.Drawing.Point(5, 96);
+            this.seniorRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.seniorRadioButton.Name = "seniorRadioButton";
+            this.seniorRadioButton.Size = new System.Drawing.Size(55, 17);
+            this.seniorRadioButton.TabIndex = 3;
+            this.seniorRadioButton.TabStop = true;
+            this.seniorRadioButton.Text = "Senior";
+            this.seniorRadioButton.UseVisualStyleBackColor = true;
+            this.seniorRadioButton.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
+            // 
+            // juniorRadioButton
+            // 
+            this.juniorRadioButton.AutoSize = true;
+            this.juniorRadioButton.Location = new System.Drawing.Point(5, 73);
+            this.juniorRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.juniorRadioButton.Name = "juniorRadioButton";
+            this.juniorRadioButton.Size = new System.Drawing.Size(53, 17);
+            this.juniorRadioButton.TabIndex = 2;
+            this.juniorRadioButton.TabStop = true;
+            this.juniorRadioButton.Text = "Junior";
+            this.juniorRadioButton.UseVisualStyleBackColor = true;
+            this.juniorRadioButton.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            // 
+            // sophRadioButton
+            // 
+            this.sophRadioButton.AutoSize = true;
+            this.sophRadioButton.Location = new System.Drawing.Point(5, 50);
+            this.sophRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.sophRadioButton.Name = "sophRadioButton";
+            this.sophRadioButton.Size = new System.Drawing.Size(73, 17);
+            this.sophRadioButton.TabIndex = 1;
+            this.sophRadioButton.TabStop = true;
+            this.sophRadioButton.Text = "Sophmore";
+            this.sophRadioButton.UseVisualStyleBackColor = true;
+            this.sophRadioButton.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // freshRadioButton
+            // 
+            this.freshRadioButton.AutoSize = true;
+            this.freshRadioButton.Location = new System.Drawing.Point(5, 28);
+            this.freshRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.freshRadioButton.Name = "freshRadioButton";
+            this.freshRadioButton.Size = new System.Drawing.Size(71, 17);
+            this.freshRadioButton.TabIndex = 0;
+            this.freshRadioButton.TabStop = true;
+            this.freshRadioButton.Text = "Freshman";
+            this.freshRadioButton.UseVisualStyleBackColor = true;
+            this.freshRadioButton.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // PersonEditForm
             // 
@@ -268,7 +355,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.cancelButton;
-            this.ClientSize = new System.Drawing.Size(822, 435);
+            this.ClientSize = new System.Drawing.Size(820, 427);
+            this.Controls.Add(this.classGroupBox);
             this.Controls.Add(this.genderGroupBox);
             this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.okButton);
@@ -288,14 +376,16 @@
             this.Controls.Add(this.gpaLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(842, 478);
+            this.MaximumSize = new System.Drawing.Size(841, 477);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(462, 319);
+            this.MinimumSize = new System.Drawing.Size(462, 318);
             this.Name = "PersonEditForm";
             this.Text = "Edit Person";
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
             this.genderGroupBox.ResumeLayout(false);
             this.genderGroupBox.PerformLayout();
+            this.classGroupBox.ResumeLayout(false);
+            this.classGroupBox.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -324,6 +414,12 @@
         private System.Windows.Forms.RadioButton themRadioButton;
         private System.Windows.Forms.RadioButton himRadioButton;
         private System.Windows.Forms.GroupBox genderGroupBox;
+        private System.Windows.Forms.GroupBox classGroupBox;
+        private System.Windows.Forms.RadioButton seniorRadioButton;
+        private System.Windows.Forms.RadioButton juniorRadioButton;
+        private System.Windows.Forms.RadioButton sophRadioButton;
+        private System.Windows.Forms.RadioButton freshRadioButton;
+        private System.Windows.Forms.Label classOfLabel;
     }
 }
 
