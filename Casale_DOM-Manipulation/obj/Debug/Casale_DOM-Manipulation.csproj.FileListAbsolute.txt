@@ -1,0 +1,10 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_DOM-Manipulation\bin\Debug\Casale_DOM-Manipulation.exe.config
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_DOM-Manipulation\bin\Debug\Casale_DOM-Manipulation.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_DOM-Manipulation\bin\Debug\Casale_DOM-Manipulation.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_DOM-Manipulation\obj\Debug\Casale_DOM_Manipulation.Form1.resources
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_DOM-Manipulation\obj\Debug\Casale_DOM_Manipulation.Properties.Resources.resources
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_DOM-Manipulation\obj\Debug\Casale_DOM-Manipulation.csproj.GenerateResource.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_DOM-Manipulation\obj\Debug\Casale_DOM-Manipulation.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_DOM-Manipulation\obj\Debug\Casale_DOM-Manipulation.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_DOM-Manipulation\obj\Debug\Casale_DOM-Manipulation.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_DOM-Manipulation\obj\Debug\Casale_DOM-Manipulation.csprojAssemblyReference.cache
