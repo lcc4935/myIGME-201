@@ -8,3 +8,4 @@ C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\MyEditor\obj\Debug\MyE
 C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\MyEditor\obj\Debug\MyEditor.csproj.CoreCompileInputs.cache
 C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\MyEditor\obj\Debug\MyEditor.exe
 C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\MyEditor\obj\Debug\MyEditor.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\MyEditor\obj\Debug\MyEditor.MyEditorParent.resources
