@@ -73,14 +73,12 @@ namespace TriviaApp
             answers.Add("hello");
 
 
-            //add correct answer
             totalAnswers = totalAnswers + 1;
 
             //generating random order
             Random rand = new Random();
             int num = rand.Next(0, totalAnswers);
 
-            //adding to list
             answers[totalAnswers] = answers[num];
             answers[num] = (trivia.results[0].correct_answer);
 
