@@ -24,11 +24,16 @@ namespace classCourse
 
             this.minorCheckBox.CheckedChanged += new EventHandler(this.minorCheckBox__CheckedChanged);
 
+            this.nameTextBox.TextChanged += new EventHandler(NameTextBox__TextChanged);
             this.majorTextBox.TextChanged += new EventHandler(MajorTextBox__TextChanged);
             this.immersionTextBox.TextChanged += new EventHandler(ImmersionTextBox__TextChanged);
             this.minorTextBox.TextChanged += new EventHandler(MinorTextBox__TextChanged);
             this.creditTextBox.TextChanged += new EventHandler(CreditTextBox__TextChanged);
-            this.newClassTextBox.TextChanged += new EventHandler(NewClassTextBox__TextChanged);
+
+            this.newClassValueTextBox.TextChanged += new EventHandler(NewClassValueTextBox__TextChanged);
+            this.newClassNumTextBox.TextChanged += new EventHandler(NewClassNumTextBox__TextChanged);
+            this.newClassNameTextBox.TextChanged += new EventHandler(NewClassNameTextBox__TextChanged);
+
 
             this.okButton.Enabled = false;
             this.okButton.Click += new EventHandler(OkButton__Click);
@@ -37,6 +42,24 @@ namespace classCourse
             this.minorComboBox.Visible = false;
             this.minorLabel.Visible = false;
             this.minorTextBox.Visible = false;
+
+
+
+            /*
+            this.nameTextBox.Text = basicInfo.name;
+            this.majorTextBox.Text = basicInfo.major;
+            this.minorTextBox.Text = basicInfo.minor;
+            this.immersionTextBox.Text = basicInfo.immersion;
+
+            this.newClassValueTextBox.Text = classInfo.classValue;
+            this.newClassNumTextBox.Text = classInfo.classNumber;
+            this.newClassNameTextBox.Text = classInfo.className;
+            this.newClassTypeComboBox.SelectedItem = classInfo.classType;
+            this.newClassCreditComboBox.SelectedItem = classInfo.classCredit;
+
+            this.creditTextBox.Text = schedule.creditCount;
+            */
+
         }
 
         //ComboBoxes
@@ -88,6 +111,30 @@ namespace classCourse
         }
 
         //Text Boxes
+        private void NameTextBox__TextChanged(object sender, EventArgs e) // add error provider
+        {
+            TextBox tb = (TextBox)sender;
+
+            //if empty
+            if (tb.Text.Length == 0)
+            {
+                // show error
+                //this.errorProvider.SetError(tb, "This field cannot be empty.");
+
+                // invalidate the control
+                tb.Tag = false;
+            }
+            else
+            {
+                // else there is data in the field
+                // clear the error
+                //this.errorProvider.SetError(tb, null);
+
+                // set the control to being valid
+                tb.Tag = true;
+            }
+        }
+
         private void MajorTextBox__TextChanged(object sender, EventArgs e) // add error provider
         {
             TextBox tb = (TextBox)sender;
@@ -187,7 +234,17 @@ namespace classCourse
             }
         }
 
-        private void NewClassTextBox__TextChanged(object sender, EventArgs e)
+        private void NewClassValueTextBox__TextChanged(object sender, EventArgs e)
+        {
+            TextBox tb = (TextBox)sender;
+        }
+
+        private void NewClassNumTextBox__TextChanged(object sender, EventArgs e)
+        {
+            TextBox tb = (TextBox)sender;
+        }
+
+        private void NewClassNameTextBox__TextChanged(object sender, EventArgs e)
         {
             TextBox tb = (TextBox)sender;
         }
