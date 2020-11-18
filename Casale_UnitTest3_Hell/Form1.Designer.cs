@@ -34,6 +34,7 @@
             this.label = new System.Windows.Forms.Label();
             this.numberTextBox = new System.Windows.Forms.TextBox();
             this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,11 +60,11 @@
             // label
             // 
             this.label.AutoSize = true;
-            this.label.Location = new System.Drawing.Point(40, 83);
+            this.label.Location = new System.Drawing.Point(26, 86);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(84, 13);
+            this.label.Size = new System.Drawing.Size(102, 13);
             this.label.TabIndex = 2;
-            this.label.Text = "Enter a Number:";
+            this.label.Text = "Enter a Number 1-3:";
             // 
             // numberTextBox
             // 
@@ -77,11 +78,21 @@
             // 
             this.errorProvider.ContainerControl = this;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(78, 193);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Emergency Exit";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(323, 237);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.numberTextBox);
             this.Controls.Add(this.label);
             this.Controls.Add(this.niceButton);
@@ -101,6 +112,7 @@
         private System.Windows.Forms.Label label;
         private System.Windows.Forms.TextBox numberTextBox;
         private System.Windows.Forms.ErrorProvider errorProvider;
+        private System.Windows.Forms.Button button1;
     }
 }
 

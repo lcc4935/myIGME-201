@@ -12,13 +12,25 @@ namespace Casale_UnitTest3_Hell
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        public int numberForTimer;
+        public Form1(Form owner, int numForTimer)
         {
             InitializeComponent();
+
+            this.Owner = Owner;
+            this.numberForTimer = numForTimer;
 
             this.readyCheckBox.CheckedChanged += new EventHandler(ReadyCheckBox__CheckedChanged);
             this.numberTextBox.TextChanged += new EventHandler(NumberTextBox__TextChanged);
             this.niceButton.Click += new EventHandler(NiceButton__Click);
+
+            this.numberTextBox.Visible = false;
+            this.niceButton.Visible = false;
+            this.label.Visible = false;
+
+            this.niceButton.Enabled = false;
+
+            this.button1.Click += new EventHandler(Button1__Click);
         }
 
         private void ReadyCheckBox__CheckedChanged(object sender, EventArgs e)
@@ -40,21 +52,32 @@ namespace Casale_UnitTest3_Hell
         }
 
         private void NumberTextBox__TextChanged(object sender, EventArgs e)
-        { 
-            try
-            {
-                Int32.Parse(this.numberTextBox.Text);
+        {
+            TextBox tb = (TextBox)sender;
+            int reply = Int32.Parse(tb.Text);
 
-            }
-            catch
+            if (reply == 1 || reply == 2 || reply == 3)
             {
-                this.errorProvider.
+                tb.Tag = true;
+                this.niceButton.Enabled = true;
+
+                numberForTimer = reply;
+            }
+            else
+            {
+                this.errorProvider.SetError(tb, "Not a valid Number");
+                tb.Tag = false;
             }
         }
 
         private void NiceButton__Click(object sender, EventArgs e)
         {
+            this.Close();
+        }
 
+        private void Button1__Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

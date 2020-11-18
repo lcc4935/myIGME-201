@@ -1,0 +1,10 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest3_Hell\bin\Debug\Casale_UnitTest3_Hell.exe.config
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest3_Hell\bin\Debug\Casale_UnitTest3_Hell.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest3_Hell\bin\Debug\Casale_UnitTest3_Hell.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest3_Hell\obj\Debug\Casale_UnitTest3_Hell.csprojAssemblyReference.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest3_Hell\obj\Debug\Casale_UnitTest3_Hell.Form1.resources
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest3_Hell\obj\Debug\Casale_UnitTest3_Hell.Properties.Resources.resources
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest3_Hell\obj\Debug\Casale_UnitTest3_Hell.csproj.GenerateResource.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest3_Hell\obj\Debug\Casale_UnitTest3_Hell.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest3_Hell\obj\Debug\Casale_UnitTest3_Hell.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest3_Hell\obj\Debug\Casale_UnitTest3_Hell.pdb
