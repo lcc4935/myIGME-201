@@ -75,6 +75,7 @@
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.filterGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.groupBox.SuspendLayout();
@@ -602,6 +603,7 @@
         private System.Windows.Forms.ProgressBar progressBar;
         private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.ErrorProvider errorProvider;
+        private System.Windows.Forms.ToolTip toolTip;
     }
 }
 

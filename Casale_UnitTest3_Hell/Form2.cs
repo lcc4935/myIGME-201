@@ -12,29 +12,24 @@ namespace Casale_UnitTest3_Hell
 {
     public partial class Form2 : Form
     {
-        public Form2()
+        public Form2(int numberForTimer)
         {
             InitializeComponent();
-
-            this.Show();
-            Form1 form1 = new Form1(this, numberForTimer);
-            form1.ShowDialog();
-            this.numberForTimer = form1.numForTimer;
 
             this.button.Click += new EventHandler(Button__Click);
 
 
-            if (this.numberForTimer == 1)
+            if (numberForTimer == 1)
             {
                 timer.Interval = 1000;
             }
-            else if (this.numberForTimer == 2)
+            else if (numberForTimer == 2)
             {
-                timer.Interval = 1000;
+                timer.Interval = 2000;
             }
             else
             {
-                timer.Interval = 1000;
+                timer.Interval = 3000;
             }
 
             this.timer.Tick += new EventHandler(Timer__Tick);

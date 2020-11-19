@@ -12,17 +12,16 @@ namespace Casale_UnitTest3_Hell
 {
     public partial class Form3 : Form
     {
-        public Form3()
+        int numForTimer;
+        public Form3(int numberForTimer)
         {
             InitializeComponent();
 
-            this.Show();
-            Form1 form1 = new Form1(this, numberForTimer);
-            form1.ShowDialog();
+            this.numForTimer = numberForTimer;
 
             this.radioButton1.CheckedChanged += new EventHandler(RadioButton1__CheckedChanged);
             this.radioButton2.CheckedChanged += new EventHandler(RadioButton2__CheckedChanged);
-            this.radioButton3.CheckedChanged += new EventHandler(RadioButton2__CheckedChanged);
+            this.radioButton3.CheckedChanged += new EventHandler(RadioButton3__CheckedChanged);
 
             this.label.Visible = false;
 
@@ -41,7 +40,16 @@ namespace Casale_UnitTest3_Hell
             if (radioButton2.Checked == true)
             {
                 this.label.Visible = false;
-                //opens new form2
+
+                Form2 form2 = new Form2(this.numForTimer);
+                form2.ShowDialog();
+            }
+        }
+        private void RadioButton3__CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton3.Checked == true)
+            {
+                this.label.Visible = false;
             }
         }
 

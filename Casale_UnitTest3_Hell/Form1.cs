@@ -13,12 +13,9 @@ namespace Casale_UnitTest3_Hell
     public partial class Form1 : Form
     {
         public int numberForTimer;
-        public Form1(Form owner, int numForTimer)
+        public Form1()
         {
             InitializeComponent();
-
-            this.Owner = Owner;
-            this.numberForTimer = numForTimer;
 
             this.readyCheckBox.CheckedChanged += new EventHandler(ReadyCheckBox__CheckedChanged);
             this.numberTextBox.TextChanged += new EventHandler(NumberTextBox__TextChanged);
@@ -72,7 +69,8 @@ namespace Casale_UnitTest3_Hell
 
         private void NiceButton__Click(object sender, EventArgs e)
         {
-            this.Close();
+            Form3 form3 = new Form3(numberForTimer);
+            form3.ShowDialog();
         }
 
         private void Button1__Click(object sender, EventArgs e)

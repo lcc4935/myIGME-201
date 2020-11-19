@@ -8,3 +8,5 @@ C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest3_Hell\
 C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest3_Hell\obj\Debug\Casale_UnitTest3_Hell.csproj.CoreCompileInputs.cache
 C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest3_Hell\obj\Debug\Casale_UnitTest3_Hell.exe
 C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest3_Hell\obj\Debug\Casale_UnitTest3_Hell.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest3_Hell\obj\Debug\Casale_UnitTest3_Hell.Form2.resources
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\Casale_UnitTest3_Hell\obj\Debug\Casale_UnitTest3_Hell.Form3.resources

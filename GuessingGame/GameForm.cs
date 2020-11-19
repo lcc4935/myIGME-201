@@ -69,7 +69,6 @@ namespace GuessingGame
 
             }
 
-            //not done, but found out that it wouldn't be graded
         }
     }
 }

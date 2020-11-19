@@ -7,6 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using classCourseLibrary;
+
+//classValue = departmet
+//classNumber = courseCode
+//in case I forget to switch them all over
 
 namespace classCourse
 {
@@ -51,14 +56,16 @@ namespace classCourse
             this.minorTextBox.Text = basicInfo.minor;
             this.immersionTextBox.Text = basicInfo.immersion;
 
-            this.newClassValueTextBox.Text = classInfo.classValue;
-            this.newClassNumTextBox.Text = classInfo.classNumber;
+            this.newClassValueTextBox.Text = classInfo.department;
+            this.newClassNumTextBox.Text = classInfo.courseCode;
             this.newClassNameTextBox.Text = classInfo.className;
             this.newClassTypeComboBox.SelectedItem = classInfo.classType;
             this.newClassCreditComboBox.SelectedItem = classInfo.classCredit;
 
             this.creditTextBox.Text = schedule.creditCount;
             */
+
+            //this.label.Text = department, courseCode, className, creditCount;
 
         }
 

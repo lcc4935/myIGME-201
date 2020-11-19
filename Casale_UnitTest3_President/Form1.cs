@@ -13,7 +13,6 @@ using System.Windows.Forms;
 the timer/progress bar doesn't work
 checkbox in the groupbox - unsure what this does
 exit button works, even without all answers being correct
-words popping up when mouse hovers over textboxes doesn't happen
 formatting of webbrowser looks really weird
  */
 
@@ -70,6 +69,21 @@ namespace Casale_UnitTest3_President
             this.tJTextBox.TextChanged += new EventHandler(TextBox__TextChanged);
 
             this.bHTextBox.MouseHover += new EventHandler(BHTextBox__MouseHover);
+            this.fDRTextBox.MouseHover += new EventHandler(FDRTextBox__MouseHover);
+            this.wJCTextBox.MouseHover += new EventHandler(WJCTextBox__MouseHover);
+            this.jBTextBox.MouseHover += new EventHandler(JBTextBox__MouseHover);
+            this.fPTextBox.MouseHover += new EventHandler(FPTextBox__MouseHover);
+            this.gWBTextBox.MouseHover += new EventHandler(GWBTextBox__MouseHover);
+            this.bOTextBox.MouseHover += new EventHandler(BOTextBox__MouseHover);
+            this.jFKTextBox.MouseHover += new EventHandler(JFKTextBox__MouseHover);
+            this.wMTextBox.MouseHover += new EventHandler(WMTextBox__MouseHover);
+            this.rRTextBox.MouseHover += new EventHandler(RRTextBox__MouseHover);
+            this.dDETextBox.MouseHover += new EventHandler(DDETextBox__MouseHover);
+            this.mVTextBox.MouseHover += new EventHandler(MVTextBox__MouseHover);
+            this.gWTextBox.MouseHover += new EventHandler(GWTextBox__MouseHover);
+            this.jATextBox.MouseHover += new EventHandler(JATextBox__MouseHover);
+            this.tRTextBox.MouseHover += new EventHandler(TRTextBox__MouseHover);
+            this.tJTextBox.MouseHover += new EventHandler(TJTextBox__MouseHover);
 
             //picture
             this.pictureBox.MouseEnter += new EventHandler(PictureBox__MouseEnter);
@@ -80,6 +94,73 @@ namespace Casale_UnitTest3_President
             this.timer.Tick += new EventHandler(Timer__Tick);
             this.exitButton.Click += new EventHandler(ExitButton__Click);
         }
+
+        private void BHTextBox__MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip.Show("What # President?", this.bHTextBox);               
+        }
+        private void FDRTextBox__MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip.Show("What # President?", this.fDRTextBox);
+        }
+        private void WJCTextBox__MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip.Show("What # President?", this.wJCTextBox);
+        }
+        private void JBTextBox__MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip.Show("What # President?", this.jBTextBox);
+        }
+        private void FPTextBox__MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip.Show("What # President?", this.fPTextBox);
+        }
+        private void GWBTextBox__MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip.Show("What # President?", this.gWBTextBox);
+        }
+        private void BOTextBox__MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip.Show("What # President?", this.bOTextBox);
+        }
+        private void JFKTextBox__MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip.Show("What # President?", this.jFKTextBox);
+        }
+        private void WMTextBox__MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip.Show("What # President?", this.wMTextBox);
+        }
+        private void RRTextBox__MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip.Show("What # President?", this.rRTextBox);
+        }
+        private void DDETextBox__MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip.Show("What # President?", this.dDETextBox);
+        }
+        private void MVTextBox__MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip.Show("What # President?", this.mVTextBox);
+        }
+        private void GWTextBox__MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip.Show("What # President?", this.gWTextBox);
+        }
+        private void JATextBox__MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip.Show("What # President?", this.jATextBox);
+        }
+        private void TRTextBox__MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip.Show("What # President?", this.tRTextBox);
+        }
+        private void TJTextBox__MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip.Show("What # President?", this.tJTextBox);
+        }
+
+
 
         private void PictureBox__MouseEnter(object sender, EventArgs e)
         {
@@ -327,11 +408,6 @@ namespace Casale_UnitTest3_President
                 }
             }
 
-        }
-
-        private void BHTextBox__MouseHover(object sender, EventArgs e) //come back to this
-        {
-            
         }
 
         private void PresRadioButton__CheckedChanged(object sender, EventArgs e)

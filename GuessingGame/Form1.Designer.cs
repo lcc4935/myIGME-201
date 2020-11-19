@@ -1,6 +1,6 @@
 ﻿namespace GuessingGame
 {
-    partial class Form1
+    partial class ParameterForm
     {
         /// <summary>
         /// Required designer variable.
@@ -88,7 +88,7 @@
             this.highLabel.TabIndex = 5;
             this.highLabel.Text = "High Number:";
             // 
-            // Form1
+            // ParameterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -99,8 +99,8 @@
             this.Controls.Add(this.lowTextBox);
             this.Controls.Add(this.highTextBox);
             this.Controls.Add(this.startButton);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "ParameterForm";
+            this.Text = "ParameterForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 

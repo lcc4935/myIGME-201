@@ -16,8 +16,8 @@ namespace classCourseLibrary
 
     public abstract class ClassInfo
     {
-        public string classValue; //ex: IGME
-        public string classNumber;
+        public string department; //ex: IGME
+        public string couseCode;
         public string className;
         public string classType;
         public int classCredit;

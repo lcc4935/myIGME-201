@@ -1,0 +1,11 @@
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\GuessingGame\bin\Debug\GuessingGame.exe.config
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\GuessingGame\bin\Debug\GuessingGame.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\GuessingGame\bin\Debug\GuessingGame.pdb
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\GuessingGame\obj\Debug\GuessingGame.csprojAssemblyReference.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\GuessingGame\obj\Debug\GuessingGame.ParameterForm.resources
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\GuessingGame\obj\Debug\GuessingGame.GameForm.resources
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\GuessingGame\obj\Debug\GuessingGame.Properties.Resources.resources
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\GuessingGame\obj\Debug\GuessingGame.csproj.GenerateResource.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\GuessingGame\obj\Debug\GuessingGame.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\GuessingGame\obj\Debug\GuessingGame.exe
+C:\Users\Lauren Casale\Desktop\IGME201\lcc4935\myIGME-201\GuessingGame\obj\Debug\GuessingGame.pdb
