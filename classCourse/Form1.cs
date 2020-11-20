@@ -15,9 +15,9 @@ using classCourseLibrary;
 
 namespace classCourse
 {
-    public partial class Form1 : Form
+    public partial class classCourse : Form
     {
-        public Form1()
+        public classCourse() //LC
         {
             InitializeComponent();
 
@@ -70,33 +70,33 @@ namespace classCourse
         }
 
         //ComboBoxes
-        private void MajorComboBox__SelectedIndexChanged(object sender, EventArgs e)
+        private void MajorComboBox__SelectedIndexChanged(object sender, EventArgs e) //LC
         {
             ComboBox cb = (ComboBox)sender;
         }
 
-        private void MinorComboBox__SelectedIndexChanged(object sender, EventArgs e)
+        private void MinorComboBox__SelectedIndexChanged(object sender, EventArgs e) //LC
         {
             ComboBox cb = (ComboBox)sender;
         }
 
-        private void ExtraClassComboBox__SelectedIndexChanged(object sender, EventArgs e)
+        private void ExtraClassComboBox__SelectedIndexChanged(object sender, EventArgs e) //LC
         {
             ComboBox cb = (ComboBox)sender;
         }
 
-        private void NewClassCreditComboBox__SelectedIndexChanged(object sender, EventArgs e)
+        private void NewClassCreditComboBox__SelectedIndexChanged(object sender, EventArgs e) //LC
         {
             ComboBox cb = (ComboBox)sender;
         }
 
-        private void NewClassTypeComboBox__SelectedIndexChanged(object sender, EventArgs e)
+        private void NewClassTypeComboBox__SelectedIndexChanged(object sender, EventArgs e) //LC
         {
             ComboBox cb = (ComboBox)sender;
         }
 
         //Checkboxes
-        private void minorCheckBox__CheckedChanged(object sender, EventArgs e)
+        private void minorCheckBox__CheckedChanged(object sender, EventArgs e) //LC
         {
             CheckBox cb = (CheckBox)sender;
 
@@ -118,8 +118,13 @@ namespace classCourse
         }
 
         //Text Boxes
-        private void NameTextBox__TextChanged(object sender, EventArgs e) // add error provider
+        private void NameTextBox__TextChanged(object sender, EventArgs e)  //LC
         {
+            // add error provider
+
+
+
+
             TextBox tb = (TextBox)sender;
 
             //if empty
@@ -142,8 +147,13 @@ namespace classCourse
             }
         }
 
-        private void MajorTextBox__TextChanged(object sender, EventArgs e) // add error provider
+        private void MajorTextBox__TextChanged(object sender, EventArgs e)  //LC
         {
+            // add error provider
+
+
+
+
             TextBox tb = (TextBox)sender;
 
             //if empty
@@ -166,8 +176,13 @@ namespace classCourse
             }
         }
 
-        private void ImmersionTextBox__TextChanged(object sender, EventArgs e) // add error provider
+        private void ImmersionTextBox__TextChanged(object sender, EventArgs e)  //LC
         {
+            // add error provider
+
+
+
+
             TextBox tb = (TextBox)sender;
 
             //if empty
@@ -190,8 +205,13 @@ namespace classCourse
             }
         }
 
-        private void MinorTextBox__TextChanged(object sender, EventArgs e) // add error provider
+        private void MinorTextBox__TextChanged(object sender, EventArgs e)  //LC
         {
+            // add error provider
+
+
+
+
             TextBox tb = (TextBox)sender;
 
             //if empty
@@ -214,8 +234,13 @@ namespace classCourse
             }
         }
 
-        private void CreditTextBox__TextChanged(object sender, EventArgs e) // add error provider
+        private void CreditTextBox__TextChanged(object sender, EventArgs e)  //LC
         {
+            // add error provider
+
+
+
+
             TextBox tb = (TextBox)sender;
 
             //convert to number
@@ -241,25 +266,28 @@ namespace classCourse
             }
         }
 
-        private void NewClassValueTextBox__TextChanged(object sender, EventArgs e)
+        private void NewClassValueTextBox__TextChanged(object sender, EventArgs e)  //LC
         {
             TextBox tb = (TextBox)sender;
         }
 
-        private void NewClassNumTextBox__TextChanged(object sender, EventArgs e)
+        private void NewClassNumTextBox__TextChanged(object sender, EventArgs e)  //LC
         {
             TextBox tb = (TextBox)sender;
         }
 
-        private void NewClassNameTextBox__TextChanged(object sender, EventArgs e)
+        private void NewClassNameTextBox__TextChanged(object sender, EventArgs e)  //LC
         {
             TextBox tb = (TextBox)sender;
         }
 
         //Buttons
-        private void OkButton__Click(object sender, EventArgs e) //come back to this
+        private void OkButton__Click(object sender, EventArgs e)   //LC
         {
-            
+            //come back to this
+
+
+
         }
     }
 }
