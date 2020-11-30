@@ -21,34 +21,8 @@ namespace classCourse
         {
             InitializeComponent();
 
-            this.majorComboBox.SelectedIndexChanged += new EventHandler(MajorComboBox__SelectedIndexChanged);
-            this.minorComboBox.SelectedIndexChanged += new EventHandler(MinorComboBox__SelectedIndexChanged);
-            this.extraClassComboBox.SelectedIndexChanged += new EventHandler(ExtraClassComboBox__SelectedIndexChanged);
-            this.newClassCreditComboBox.SelectedIndexChanged += new EventHandler(NewClassCreditComboBox__SelectedIndexChanged);
-            this.newClassTypeComboBox.SelectedIndexChanged += new EventHandler(NewClassTypeComboBox__SelectedIndexChanged);
-
-            this.minorCheckBox.CheckedChanged += new EventHandler(this.minorCheckBox__CheckedChanged);
-
-            this.nameTextBox.TextChanged += new EventHandler(NameTextBox__TextChanged);
-            this.majorTextBox.TextChanged += new EventHandler(MajorTextBox__TextChanged);
-            this.immersionTextBox.TextChanged += new EventHandler(ImmersionTextBox__TextChanged);
-            this.minorTextBox.TextChanged += new EventHandler(MinorTextBox__TextChanged);
-            this.creditTextBox.TextChanged += new EventHandler(CreditTextBox__TextChanged);
-
-            this.newClassValueTextBox.TextChanged += new EventHandler(NewClassValueTextBox__TextChanged);
-            this.newClassNumTextBox.TextChanged += new EventHandler(NewClassNumTextBox__TextChanged);
-            this.newClassNameTextBox.TextChanged += new EventHandler(NewClassNameTextBox__TextChanged);
-
-
-            this.okButton.Enabled = false;
-            this.okButton.Click += new EventHandler(OkButton__Click);
-
-            this.minorClassLabel.Visible = false;
-            this.minorComboBox.Visible = false;
-            this.minorLabel.Visible = false;
-            this.minorTextBox.Visible = false;
-
-
+            this.addClassButton.Click += new EventHandler(AddClassButton__Click);
+            this.infoButton.Click += new EventHandler(InfoButton__Click);
 
             /*
             this.nameTextBox.Text = basicInfo.name;
@@ -69,225 +43,183 @@ namespace classCourse
 
         }
 
-        //ComboBoxes
-        private void MajorComboBox__SelectedIndexChanged(object sender, EventArgs e) //LC
-        {
-            ComboBox cb = (ComboBox)sender;
-        }
-
-        private void MinorComboBox__SelectedIndexChanged(object sender, EventArgs e) //LC
-        {
-            ComboBox cb = (ComboBox)sender;
-        }
-
-        private void ExtraClassComboBox__SelectedIndexChanged(object sender, EventArgs e) //LC
-        {
-            ComboBox cb = (ComboBox)sender;
-        }
-
-        private void NewClassCreditComboBox__SelectedIndexChanged(object sender, EventArgs e) //LC
-        {
-            ComboBox cb = (ComboBox)sender;
-        }
-
-        private void NewClassTypeComboBox__SelectedIndexChanged(object sender, EventArgs e) //LC
-        {
-            ComboBox cb = (ComboBox)sender;
-        }
-
-        //Checkboxes
-        private void minorCheckBox__CheckedChanged(object sender, EventArgs e) //LC
-        {
-            CheckBox cb = (CheckBox)sender;
-
-            if (cb.Checked)
-            {
-                this.minorClassLabel.Visible = true;
-                this.minorComboBox.Visible = true;
-                this.minorLabel.Visible = true;
-                this.minorTextBox.Visible = true;
-            }
-            else
-            {
-                this.minorClassLabel.Visible = false;
-                this.minorComboBox.Visible = false;
-                this.minorLabel.Visible = false;
-                this.minorTextBox.Visible = false;
-            }
-
-        }
-
-        //Text Boxes
-        private void NameTextBox__TextChanged(object sender, EventArgs e)  //LC
-        {
-            // add error provider
-
-
-
-
-            TextBox tb = (TextBox)sender;
-
-            //if empty
-            if (tb.Text.Length == 0)
-            {
-                // show error
-                //this.errorProvider.SetError(tb, "This field cannot be empty.");
-
-                // invalidate the control
-                tb.Tag = false;
-            }
-            else
-            {
-                // else there is data in the field
-                // clear the error
-                //this.errorProvider.SetError(tb, null);
-
-                // set the control to being valid
-                tb.Tag = true;
-            }
-        }
-
-        private void MajorTextBox__TextChanged(object sender, EventArgs e)  //LC
-        {
-            // add error provider
-
-
-
-
-            TextBox tb = (TextBox)sender;
-
-            //if empty
-            if (tb.Text.Length == 0)
-            {
-                // show error
-                //this.errorProvider.SetError(tb, "This field cannot be empty.");
-
-                // invalidate the control
-                tb.Tag = false;
-            }
-            else
-            {
-                // else there is data in the field
-                // clear the error
-                //this.errorProvider.SetError(tb, null);
-
-                // set the control to being valid
-                tb.Tag = true;
-            }
-        }
-
-        private void ImmersionTextBox__TextChanged(object sender, EventArgs e)  //LC
-        {
-            // add error provider
-
-
-
-
-            TextBox tb = (TextBox)sender;
-
-            //if empty
-            if (tb.Text.Length == 0)
-            {
-                // show error
-                //this.errorProvider.SetError(tb, "This field cannot be empty.");
-
-                // invalidate the control
-                tb.Tag = false;
-            }
-            else
-            {
-                // else there is data in the field
-                // clear the error
-                //this.errorProvider.SetError(tb, null);
-
-                // set the control to being valid
-                tb.Tag = true;
-            }
-        }
-
-        private void MinorTextBox__TextChanged(object sender, EventArgs e)  //LC
-        {
-            // add error provider
-
-
-
-
-            TextBox tb = (TextBox)sender;
-
-            //if empty
-            if (tb.Text.Length == 0)
-            {
-                // show error
-                //this.errorProvider.SetError(tb, "This field cannot be empty.");
-
-                // invalidate the control
-                tb.Tag = false;
-            }
-            else
-            {
-                // else there is data in the field
-                // clear the error
-                //this.errorProvider.SetError(tb, null);
-
-                // set the control to being valid
-                tb.Tag = true;
-            }
-        }
-
-        private void CreditTextBox__TextChanged(object sender, EventArgs e)  //LC
-        {
-            // add error provider
-
-
-
-
-            TextBox tb = (TextBox)sender;
-
-            //convert to number
-            int tbNum = Int32.Parse(tb.Text);
-
-            //if empty or less than 123
-            if (tb.Text.Length == 0 || tbNum < 123)
-            {
-                // show error
-                //this.errorProvider.SetError(tb, "This field cannot be empty.");
-
-                // invalidate the control
-                tb.Tag = false;
-            }
-            else
-            {
-                // else there is data in the field
-                // clear the error
-                //this.errorProvider.SetError(tb, null);
-
-                // set the control to being valid
-                tb.Tag = true;
-            }
-        }
-
-        private void NewClassValueTextBox__TextChanged(object sender, EventArgs e)  //LC
-        {
-            TextBox tb = (TextBox)sender;
-        }
-
-        private void NewClassNumTextBox__TextChanged(object sender, EventArgs e)  //LC
-        {
-            TextBox tb = (TextBox)sender;
-        }
-
-        private void NewClassNameTextBox__TextChanged(object sender, EventArgs e)  //LC
-        {
-            TextBox tb = (TextBox)sender;
-        }
 
         //Buttons
-        private void OkButton__Click(object sender, EventArgs e)   //LC
+
+        private void AddClassButton__Click(object sender, EventArgs e)  //LC
         {
-            //come back to this
-
-
-
+            AddEditClass addEditClass = new AddEditClass();
+            addEditClass.ShowDialog();
         }
+
+        private void InfoButton__Click(object sender, EventArgs e)  //LC
+        {
+            PersonalInfo personalInfo = new PersonalInfo();
+            personalInfo.ShowDialog();
+        }
+
+        private void classToolStripButton__Click(object sender, EventArgs e) // different sizes for class
+        {
+            ToolStripButton tbs = (ToolStripButton)sender;
+            Panel p = (Panel)tbs.Tag;
+
+            if (tbs.Checked)
+            {
+                tbs.Image = global::classCourse.Properties.Resources.plus;
+                p.Size = new System.Drawing.Size(330, 27);
+                tbs.Checked = false;
+            }
+            else
+            {
+                tbs.Image = global::classCourse.Properties.Resources.minus;
+                p.Size = new System.Drawing.Size(330, 103);
+                tbs.Checked = true;
+            }
+
+            p.Refresh();
+        }
+
+        private void typesToolStripButton__Click(object sender, EventArgs e) // different sizes for class types - figure out based on number of classes
+        {
+            ToolStripButton tbs = (ToolStripButton)sender;
+            Panel p = (Panel)tbs.Tag;
+
+            if (tbs.Checked)
+            {
+                tbs.Image = global::classCourse.Properties.Resources.plus;
+                p.Size = new System.Drawing.Size(193, 25); //edit size - smaller
+                tbs.Checked = false;
+            }
+            else
+            {
+                tbs.Image = global::classCourse.Properties.Resources.minus;
+                p.Size = new System.Drawing.Size(193, 211); //edit size - bigger
+                tbs.Checked = true;
+            }
+
+            p.Refresh();
+        }
+
+
+        //labels
+
+        /*
+        private void ToolStripLabels__Click(object sender, EventArgs e) // when clicked = edit class  - want to come back to this after library
+        {
+            ToolStripLabel tsl = (ToolStripLabel)sender;
+            Panel p = (Panel)tsl.Tag;
+
+            AddEditClass cef = new AddEditClass((Class)p.Tag, this);
+            cef.Visible = false;
+
+            cef.ShowDialog();
+
+            Class class = cef.formClass;
+
+            p.Controls.Clear();
+
+            AddClassToPanel(ref p, class);
+
+            p.Refresh();
+        }
+        */
+
+        //panels
+        /*
+        private void AddPanelToClassType(class class)  //LC
+        {
+            Panel panel = new System.Windows.Forms.Panel();
+            //this.otherPanel = new System.Windows.Forms.Panel();
+
+            AddClassToPanel(ref panel, class);
+            
+            this.FlowLayoutPanel.Controls.Add(panel); //flowLayoutPanel depends on class type
+            this.FlowLayoutPanel.Controls.SetChildIndex(panel, flowLayourPanel.Controls.Count);
+        }
+
+        private void AddClassToPanel(ref Panel panel, Class class)  //LC
+        {
+            Label ClassTypeLabel = new System.Windows.Forms.Label();
+            Label ClassCreditLabel = new System.Windows.Forms.Label();
+            Label ClassNameLabel = new System.Windows.Forms.Label();
+            ToolStrip PanelToolStrip = new System.Windows.Forms.ToolStrip();
+            ToolStripLabel ToolStripLabel = new System.Windows.Forms.ToolStripLabel();
+            ToolStripButton ToolStripButton = new System.Windows.Forms.ToolStripButton();
+
+            // edit background based on class type
+
+        // otherPanel
+            // 
+            Panel.Controls.Add(ClassTypeLabel);
+            Panel.Controls.Add(ClassCreditLabel);
+            Panel.Controls.Add(ClassNameLabel);
+            Panel.Controls.Add(PanelToolStrip);
+            Panel.Location = new System.Drawing.Point(3, 3);
+            Panel.Name = "otherPanel";
+            Panel.Size = new System.Drawing.Size(330, 27);
+            Panel.TabIndex = 0;
+            Panel.Tag = class;
+            // 
+            // otherClassTypeLabel
+            // 
+            ClassTypeLabel.AutoSize = true;
+            ClassTypeLabel.Location = new System.Drawing.Point(7, 77);
+            ClassTypeLabel.Name = "otherClassTypeLabel";
+            ClassTypeLabel.Size = new System.Drawing.Size(112, 13);
+            ClassTypeLabel.TabIndex = 3;
+            ClassTypeLabel.Text = "Counts towards: " + class.classType; //library variables
+            // 
+            // otherClassCreditLabel
+            // 
+            ClassCreditLabel.AutoSize = true;
+            ClassCreditLabel.Location = new System.Drawing.Point(7, 51);
+            ClassCreditLabel.Name = "otherClassCreditLabel";
+            ClassCreditLabel.Size = new System.Drawing.Size(48, 13);
+            ClassCreditLabel.TabIndex = 2;
+            ClassCreditLabel.Text = class.Credits; //library variables
+            // 
+            // otherClassNameLabel
+            // 
+            ClassNameLabel.AutoSize = true;
+            ClassNameLabel.Location = new System.Drawing.Point(4, 29);
+            ClassNameLabel.Name = "otherClassNameLabel";
+            ClassNameLabel.Size = new System.Drawing.Size(60, 13);
+            ClassNameLabel.TabIndex = 1;
+            ClassNameLabel.Text = class.className; //library variables
+            // 
+            // otherPanelToolStrip
+            // 
+            PanelToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            ToolStripButton,
+            ToolStripLabel});
+            PanelToolStrip.Location = new System.Drawing.Point(0, 0);
+            PanelToolStrip.Name = "otherPanelToolStrip";
+            PanelToolStrip.Size = new System.Drawing.Size(330, 25);
+            PanelToolStrip.TabIndex = 0;
+            PanelToolStrip.Text = "toolStrip1";
+            // 
+            // otherToolStripLabel
+            // 
+            ToolStripLabel.IsLink = true;
+            ToolStripLabel.Name = "otherToolStripLabel";
+            ToolStripLabel.Size = new System.Drawing.Size(134, 22);
+            ToolStripLabel.Text = class.department, class.couseCode; //library variables
+            ToolStripLabel.Click += new EventHandler(ToolStripLabel__Click); //potentially edit name of event after write this
+            ToolStripLabel.Tag = panel;
+            //
+            // otherToolStripButton
+            // 
+            ToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            ToolStripButton.Image = global::classCourse.Properties.Resources.plus;
+            ToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            ToolStripButton.Name = "otherToolStripButton";
+            ToolStripButton.Size = new System.Drawing.Size(23, 22);
+            ToolStripButton.Text = "toolStripButton1";
+            ToolStripButton.Click += new EventHandler(classToolStripButton__Click);
+            ToolStripButton.Tag = panel;
+        }
+
+        */
+
     }
 }
